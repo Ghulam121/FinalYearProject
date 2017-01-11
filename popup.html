@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Site Tracking</title>
+    <link rel="stylesheet" type="text/css" href="project.css"> 
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="background.js"></script> 
+  </head>
+  <body>
+<table>
+    <tr>
+        <td colspan="2">
+         <div id="banner1">
+          <h1>Top Visited Sites</h1>
+	     </div>
+	     </td>
+    </tr>
+ </table>
+ <div id="demo1"></div>
+ <br>
+ <div id="demo2"></div>
+ 
+  </body>
+</html>
+

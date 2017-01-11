@@ -1,0 +1,37 @@
+body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #banner1{
+	   width:400px;
+	   background-color:blue;
+	   text-align:center;
+	   border-radius:5px;
+	  }
+	  #banner2{
+	   width:150px;
+	   background-color:blue;
+	   text-align:center;
+	   border-radius:5px;
+	  }
+	  #banner3{
+	   width:150px;
+	   background-color:blue;
+	   text-align:center;
+	   border-radius:5px;
+	   margin-left:50px;
+	  }
+	  Button{
+	   width:150px;
+	   background-color:blue;
+	   text-align:center;
+	   border-radius:5px;
+	   margin-left:50px;
+	   color:white;
+	  }
+	  p{
+	  color:white;
+	  }
+	  h1{
+	  color:white;
+	  }
